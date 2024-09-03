@@ -1,0 +1,18 @@
+import java.until.Scanner;
+
+public class operacoesnoestoque{
+
+  public static void main(String[]args){
+      Scanner sc = new Scanner(System.in);
+
+      System.out.printl("Porfavor digite o nome do produto.");
+      String nomeproduto = sc.Line();
+
+      System.out.printl("Porfavor digite a quantidade do produto.");
+      float quantidadeproduto = sc.Line();
+      
+    
+
+  }
+
+}
