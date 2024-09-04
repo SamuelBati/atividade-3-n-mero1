@@ -5,4 +5,9 @@ float precoproduto;
 int quantidadeproduto;
 int quantidadedoprodutopossivelnoestoque;
 
+System.out.printl("Nome do produto:%s", nomeproduto);
+System.out.printl("%nPreco do produto:%2f", precoproduto);
+System.out.printl("%nQuantidade do produto no estoque:%d", quantidadeproduto);
+System.out.printl("%nquantidade deste produto que o estoque consegue armazenar:%d", quantidadeprodutopossivelnoestoque);
+
 }
