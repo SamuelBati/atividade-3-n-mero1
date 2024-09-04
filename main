@@ -15,11 +15,12 @@ public class operacoesnoestoque{
       int quantidadeproduto = sc.nextInt();
 
       System.out.printl("Porfavor digite a quantidade do produto que o estoque pode armazenar.");
-      int quantidadeprodutonoestoque = sc.nextInt();
+      int quantidadeprodutopossivelnoestoque = sc.nextInt();
 
       System.out.printl("Nome do produto:%s", nomeproduto);
       System.out.printl("%nPreco do produto:%2f", precoproduto);
-      System.out.printl("%nQuantidade do produto em estoque:%d", quantidadeproduto);
+      System.out.printl("%nQuantidade do produto no estoque:%d", quantidadeproduto);
+      System.out.printl("%nquantidade deste produto que o estoque consegue armazenar:%d", quantidadeprodutopossivelnoestoque);
       
     }
 
