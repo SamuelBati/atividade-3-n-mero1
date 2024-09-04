@@ -6,13 +6,21 @@ public class operacoesnoestoque{
       Scanner sc = new Scanner(System.in);
 
       System.out.printl("Porfavor digite o nome do produto.");
-      String nomeproduto = sc.Line();
+      String nomeproduto = sc.nextLine();
 
-      System.out.printl("Porfavor digite a quantidade do produto.");
-      float quantidadeproduto = sc.Line();
+      System.out.printl("Porfavor digite o preco do produto.");
+      float precoproduto = sc.nextFloat();
+
+      System.out.printl("Porfavor digite a quantidade do produto em estoque.");
+      int quantidadeproduto = sc.nextInt();
+
+      System.out.printl("Porfavor digite a quantidade do produto que o estoque pode armazenar.");
+      int quantidadeprodutonoestoque = sc.nextInt();
+
+      System.out.printl("Nome do produto:%s", nomeproduto);
+      System.out.printl("%nPreco do produto:%2f", precoproduto);
+      System.out.printl("%nQuantidade do produto em estoque:%d", quantidadeproduto);
       
-    
-
-  }
+    }
 
 }
