@@ -3,5 +3,6 @@ public class {
 String nomeproduto;
 float precoproduto;
 int quantidadeproduto;
+int quantidadedoprodutopossivelnoestoque;
 
 }
