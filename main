@@ -1,3 +1,4 @@
+package produto;
 import java.until.Scanner;
 
 public class operacoesnoestoque{
@@ -9,7 +10,7 @@ public class operacoesnoestoque{
       produto1.nome = "Veja";
       produto1.precoproduto = 20,00;
       produto1.quantidadeproduto = 16;
-      produto1.quantidadeprodutopossivelnoesteoque
+      produto1.quantidadedoprodutopossivelnoesteoque = 20;
       
     }
 
