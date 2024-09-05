@@ -5,7 +5,8 @@ public class operacoesnoestoque{
   public static void main(String[]args){
       Scanner sc = new Scanner(System.in);
 
-      
+      Produto produto1 = new Produto();
+      produto1.nome = "Veja";
       
     }
 
