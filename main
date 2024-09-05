@@ -9,7 +9,8 @@ public class operacoesnoestoque{
       Produto produto1 = new Produto();
       produto1.nome = "Veja";
       produto1.precoproduto = 20,00;
-      produto1.quantidadeproduto = 16;
+      produto1.quantidadeadicionarproduto = 16;
+      produto1.quantidadepesentenoestoque = 2;
       produto1.quantidadedoprodutopossivelnoesteoque = 20;
       
     }
