@@ -1,15 +1,32 @@
+import java.util.Scanner;
+
 public class Produto {
 
-String nomeproduto;
-float precoproduto;
-int quantidadeadicionarproduto;
-int quantidadepresentenoestoque;
-int quantidadedoprodutopossivelnoestoque;
+  public static void lereregistrarproduto(String[] arg){
+  Scanner scanner= new scanner(System.in);
+  
+    String NomeProduto;
+    float PrecoProduto;
+    int QuantidadeAdicionarProduto;
+    int QuantidadePresenteNoEstoque;
+    int QuantidadeDoProdutoPossivelNoEstoque;
 
-System.out.printl("Nome do produto:%s", nomeproduto);
-System.out.printl("%nPreco do produto:%2f", precoproduto);
-System.out.printl("%nQuantidade do produto no estoque:%d", quantidadeadicionarproduto);
-System.out.printl("%nquantidade deste produto que ja esta no estoque:%d",quantidadepresentenoestoque);
-System.out.printl("%nquantidade deste produto que o estoque consegue armazenar:%d", quantidadedoprodutopossivelnoestoque);
+    System.out.printf("Porfavor digite o nome do produto");
+      String NomeProduto = sc.nextLine();
+    System.out.printf("Porfavor digite o preco do produto");
+      float PrecoProduto = sc.nexFloat();
+    System.out.printf("Agora a quantidade do produto que deseja adicionar ao estoque");
+      int QuantidadeAdicionarProduto = sc.nextInt();
+    System.out.printf("Digite a quantidade do produto já presente no estoque");
+      int QuantidadePresenteNoEstoque = sc.nextInt();
+    System.out.printf("Por fim, digite a quantidade deste produto que o estoque consegue armazenar");
+      int QuantidadeDoProdutoPossivelNoEstoque = sc.nextInt();
 
+    System.out.printl("Nome do produto:%s", nomeproduto);
+    System.out.printl("%nPreco do produto:%2f", precoproduto);
+    System.out.printl("%nQuantidade do produto no estoque:%d", quantidadeadicionarproduto);
+    System.out.printl("%nquantidade deste produto que ja esta no estoque:%d",quantidadepresentenoestoque);
+    System.out.printl("%nquantidade deste produto que o estoque consegue armazenar:%d", quantidadedoprodutopossivelnoestoque);
+
+  }
 }
