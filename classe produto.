@@ -5,16 +5,16 @@ public class Produto {
     float PrecoProduto;
     int QuantidadeAdicionarProduto;
     int QuantidadePresenteNoEstoque;
-    int QuantidadeDoProdutoPossivelNoEstoque;
+    int QuantidadePossivelNoEstoque;
 
     //métodos
     public void ExibirInformacoes() {
 
-      System.out.printf("Nome do produto:%s", nomeproduto);
-      System.out.printf("%nPreco do produto:%2f", precoproduto);
-      System.out.printf("%nQuantidade do produto no estoque:%d", quantidadeadicionarproduto);
-      System.out.printf("%nquantidade deste produto que ja esta no estoque:%d",quantidadepresentenoestoque);
-      System.out.printf("%nquantidade deste produto que o estoque consegue armazenar:%d", quantidadedoprodutopossivelnoestoque);
+      System.out.printf("Nome do produto:%s", NomeProduto);
+      System.out.printf("%nPreco do produto:%2f", PrecoProduto);
+      System.out.printf("%nQuantidade do produto no estoque:%d", QuantidadeAdicionarProduto);
+      System.out.printf("%nquantidade deste produto que ja esta no estoque:%d",QuantidadePresenteNoEstoque);
+      System.out.printf("%nquantidade deste produto que o estoque consegue armazenar:%d", QuantidadePossivelNoEstoque);
     
     }
 
