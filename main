@@ -7,12 +7,24 @@ public class principal{
       Scanner sc = new Scanner(System.in);
 
       Produto produto1 = new Produto();
-      produto1.nome = "Veja";
-      produto1.precoproduto = 20,00;
-      produto1.quantidadeadicionarproduto = 16;
-      produto1.quantidadepesentenoestoque = 2;
-      produto1.quantidadedoprodutopossivelnoesteoque = 20;
-      
+
+      System.out.printf(%n"Digite o nome do produto a ser adicionado");
+        produto1.NomeProduto = sc.nextLine();
+      System.out.printf(%n"Digite o preco deste produto");
+        produto1.PrecoProduto = sc.nextFloat();
+      System.out.printf(%n"Agora a quantidade deste produto que o estoque pode comportar");
+        produto1.QuantidadePossivelNoEstoque = sc.nextInt();
+      System.out.printf(%n"Quantas unidades deste produto temos em estoque");
+        produto1.QuantidadeNoEstoque = sc.nextInt();
+      System.out.printf(%n"Por fim insira quantas unidades deste produto pretende adicionar ao estoque");
+        produto1.QuantidadeAdicionarProduto = sc.nextInt();
+
+      if ((QuantidadeAdicionarProduto + QuantidadeNoEstoque) > QuantidadePossivelNoEstoque){
+         System.out.printf("%nA quantidade a ser adicionada excede o volume possivel de se armazenar no estoque");
+       }
+      else(){
+         produto1.ExibirInformacoes();
+       }
     }
 
 }
